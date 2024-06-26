@@ -1,0 +1,21 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/lists">
+      <img src="https://media.istockphoto.com/id/2068529080/fr/photo/popcorn.webp?b=1&s=170667a&w=0&k=20&c=vrk8PMw5yC_f9OSvFH7Yucwa3qlCeFu5PIaTo7P2Gdc=" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+          <li class="nav-item active">
+            <%= link_to "My lists", lists_path, class: "nav-link" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "New list", new_list_path, class: "nav-link" %>
+          </li>
+      </ul>
+    </div>
+  </div>
+</div>

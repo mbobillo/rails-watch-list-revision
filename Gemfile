@@ -31,6 +31,8 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'
 gem "sassc-rails"
+gem "cloudinary"
+gem 'dotenv-rails', groups: [:development, :test]
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"

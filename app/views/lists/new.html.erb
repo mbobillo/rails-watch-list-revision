@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="my-3">
+    <h2>Create a list</h2>
+  </div>
+  <%= simple_form_for(@list) do |f| %>
+    <div class="form-group">
+      <%= f.input :name, label: "Name your list", required: true, input_html: { class: "form-control" } %>
+      <%= f.input :photo, as: :file, label: "Add picture", input_html: { class: "form-control" } %>
+      <%= f.submit "Create list", class: "btn-custo" %>
+    </div>
+    <% end %>
+</div>
